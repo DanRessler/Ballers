@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft= "50dp"
+    android:outlineAmbientShadowColor="@color/colorPrimary">
+
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/image_icon"
+        android:src="@drawable/team1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Team"
+        android:layout_toRightOf="@id/image_icon"
+        android:textSize="30sp"
+        android:paddingRight = "40dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text = "Add Players"
+        android:layout_toRightOf= "@id/title"
+        android:shadowColor="@color/colorPrimary"
+        android:id="@+id/AddPlayers"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text = "View Roster"
+        android:layout_below="@+id/AddPlayers"
+        android:layout_toRightOf="@id/title"
+        android:shadowColor="@color/colorPrimary"
+        />
+
+
+</RelativeLayout>
