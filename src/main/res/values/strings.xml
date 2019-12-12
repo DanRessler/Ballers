@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ballers</string>
+    <string-array name="mvpcandidates">
+        <item>Ballerman5</item>
+        <item>Showbiz</item>
+        <item>Dunkmaster</item>
+        <item>KingCrossover</item>
+        <item>TripleThreat35</item>
+        <item>ShootingStar84</item>
+    </string-array>
+</resources>
